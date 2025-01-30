@@ -1,0 +1,27 @@
+Proje Tanımı: Bu proje, Twitter, Instagram ve Facebook API'lerini kullanarak sosyal medya verilerini toplar, analiz eder ve görselleştirir.
+
+Kullanıcılar İçin Faydalar:
+
+Sosyal medya hesaplarının performansını kolayca takip etme.
+Kullanıcıların takipçi, takip edilen kişi, tweet/media sayıları gibi metriklerle karşılaştırılabilir veriler sunma.
+Veri görselleştirmesiyle kullanıcılar için anlaşılabilir raporlar oluşturma.
+Kullanılan Teknolojiler:
+
+Python 3.x: API entegrasyonu ve veri analizi için.
+Matplotlib: Verilerin görselleştirilmesi için.
+Requests: API istekleri yapmak için.
+JSON: API yanıtları için veri formatı.
+API Entegrasyonu:
+
+Twitter API: Kullanıcı bilgilerini ve takipçi verilerini çekme.
+Instagram API: Kullanıcı bilgilerini ve takipçi verilerini çekme.
+Facebook API: Kullanıcı bilgilerini ve arkadaş listesini çekme.
+Projenin Çıktıları:
+
+Kullanıcı profili verilerini karşılaştıran görseller.
+Farklı platformlardan gelen verilerin tek bir raporda birleştirilmesi.
+Test ve Güvenlik:
+
+Birim Testleri: Her API'den veri çekme ve işleme fonksiyonlarının test edilmesi.
+Entegrasyon Testleri: Verilerin doğru bir şekilde işlendiği ve görselleştirildiği testler.
+Performans Testleri: API isteklerinin hız testleri.
