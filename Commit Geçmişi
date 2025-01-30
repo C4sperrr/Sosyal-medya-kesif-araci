@@ -1,0 +1,6 @@
+Düzenli Commit Geçmişi
+Her commit mesajında yapılan değişikliklerin özeti yer almalıdır. Commit mesajları, anlaşılır ve tutarlı olmalıdır. Örnek commit mesajları:
+
+git commit -m "Twitter API entegrasyonu eklendi"
+git commit -m "Veri görselleştirme fonksiyonu güncellendi"
+git commit -m "README dosyası eklendi"
