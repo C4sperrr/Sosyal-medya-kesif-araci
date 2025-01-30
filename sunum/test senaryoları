@@ -1,0 +1,35 @@
+Birim Test Senaryoları:
+Twitter API Testi:
+
+Amaç: Twitter API'sinden doğru kullanıcı verisi alındığını test et.
+Adımlar:
+twitter_api_request() fonksiyonunu çalıştır.
+Beklenen yanıt formatını kontrol et (örn. kullanıcı adı, takipçi sayısı).
+API yanıtının başarılı olup olmadığını doğrula.
+Instagram API Testi:
+
+Amaç: Instagram API'sinden doğru kullanıcı bilgileri alındığını test et.
+Adımlar:
+instagram_api_request() fonksiyonunu çalıştır.
+Instagram profil bilgilerini (followers_count, follows_count) kontrol et.
+Verilerin doğru şekilde alındığını doğrula.
+Entegrasyon Test Senaryoları:
+Veri Toplama Testi:
+Amaç: API'ler arasındaki entegrasyonun düzgün çalıştığını test et.
+Adımlar:
+generate_report() fonksiyonunu çalıştır.
+Twitter, Instagram ve Facebook verilerinin doğru bir şekilde toplandığını kontrol et.
+Görselleştirme fonksiyonunun verilerle çalışıp çalışmadığını test et.
+Performans Test Senaryoları:
+API Yük Testi:
+Amaç: API'ye yapılan isteklerin performansını test et.
+Adımlar:
+Aynı API'ye birden fazla istek gönder.
+İsteklerin tamamlanma süresini ölç.
+Süreyi 5 saniyeden kısa tutmaya çalış.
+Güvenlik Test Senaryoları:
+API Anahtarlarının Doğruluğu:
+Amaç: API anahtarlarının doğru şekilde saklanıp saklanmadığını test et.
+Adımlar:
+.env dosyasındaki API anahtarlarının eksik olup olmadığını kontrol et.
+Anahtarların güvenli bir şekilde saklandığını doğrula.
