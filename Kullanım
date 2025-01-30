@@ -1,0 +1,41 @@
+**Teknik Dökümantasyon**
+
+Teknik dökümantasyon, projenin nasıl çalıştığını, hangi araçların kullanıldığını, API'lerin nasıl entegre edildiğini detaylı şekilde açıklar. Burada şu bölümler bulunabilir:
+
+- **API Entegrasyonu**: Twitter, Instagram ve Facebook API'lerinin nasıl entegre edildiği.
+- **Veri Modeli**: Hangi verilerin toplandığı ve hangi formatta işlendiği.
+- **Veri Görselleştirme**: Verilerin nasıl grafiklere dönüştürüldüğü ve hangi araçların kullanıldığı.
+- **Testler**: Birim, entegrasyon ve güvenlik testlerinin nasıl yapıldığı.
+
+### 7) **Kurulum Talimatları**
+
+Projenin çalışabilmesi için gerekli ortamın kurulumu hakkında talimatlar. Örneğin:
+
+1. Python 3.x sürümünü kurun.
+2. Aşağıdaki komutla bağımlılıkları yükleyin:
+   ```bash
+   pip install -r requirements.txt
+API anahtarlarını .env dosyasına ekleyin.
+
+Programı çalıştırın:
+
+bash
+Kopyala
+Düzenle
+python main.py
+8) Birim Testler
+Birim testler, her fonksiyonun doğru çalıştığını test eder. Örnek bir Python test dosyası:
+
+python
+Kopyala
+Düzenle
+import unittest
+from social_media import twitter_api_request
+
+class TestTwitterAPI(unittest.TestCase):
+    def test_twitter_api_request(self):
+        result = twitter_api_request('example_username', 'YOUR_ACCESS_TOKEN')
+        self.assertEqual(result['sonuç']['durum'], 'başarılı')
+
+if __name__ == '__main__':
+    unittest.main()
