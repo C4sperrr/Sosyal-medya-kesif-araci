@@ -8,6 +8,4 @@ hotfix/<acil-duzenleme>: Üretimde kritik bir hata ortaya çıktığında, main 
 Branch kullanım örneği:
 
 bash
-Kopyala
-Düzenle
 git checkout -b feature/twitter-api
