@@ -1,0 +1,23 @@
+Kurulum Talimatları
+Gereksinimler:
+
+Python 3.x sürümü
+Geçerli API erişim anahtarları (Twitter, Instagram, Facebook)
+Adımlar:
+
+Python 3.x Yükleyin: Python’un 3.x sürümünü Python Resmi Sitesi üzerinden indirip kurun.
+
+Bağımlılıkları Yükleyin: Gereksinimlerinizi yüklemek için terminalde şu komutu çalıştırın:
+pip install -r requirements.txt
+API Anahtarlarını Alın:
+
+Twitter: Twitter Developer Portal üzerinden API anahtarlarını alın.
+Instagram: Facebook Developers Portal üzerinden Instagram API anahtarlarını alabilirsiniz.
+Facebook: Facebook API anahtarını almak için aynı portalı kullanın.
+API Anahtarlarını .env Dosyasına Ekleyin: .env dosyasını projede oluşturun ve anahtarları aşağıdaki formatta ekleyin:
+TWITTER_API_KEY=your_twitter_api_key
+TWITTER_API_SECRET=your_twitter_api_secret
+INSTAGRAM_ACCESS_TOKEN=your_instagram_access_token
+FACEBOOK_ACCESS_TOKEN=your_facebook_access_token
+Proje Çalıştırma: Projeyi başlatmak için terminalde şu komutu çalıştırın:
+python main.py
