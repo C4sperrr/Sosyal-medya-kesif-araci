@@ -1,0 +1,12 @@
+Birim Testler
+Birim testler, her fonksiyonun doğru çalıştığını test eder. Örnek bir Python test dosyası:
+import unittest
+from social_media import twitter_api_request
+
+class TestTwitterAPI(unittest.TestCase):
+    def test_twitter_api_request(self):
+        result = twitter_api_request('example_username', 'YOUR_ACCESS_TOKEN')
+        self.assertEqual(result['sonuç']['durum'], 'başarılı')
+
+if __name__ == '__main__':
+    unittest.main()
