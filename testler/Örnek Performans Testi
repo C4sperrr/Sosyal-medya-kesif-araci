@@ -1,0 +1,16 @@
+#Örnek Performans Testi#
+import time
+import unittest
+from social_media import twitter_api_request
+
+class TestPerformance(unittest.TestCase):
+    def test_performance(self):
+        start_time = time.time()
+        for i in range(100):  # 100 API isteği yapılır
+            twitter_api_request('example_username', 'YOUR_ACCESS_TOKEN')
+        end_time = time.time()
+        print(f"Performans testi süresi: {end_time - start_time} saniye")
+        self.assertLess(end_time - start_time, 5, "Performans sınırını aştı")
+
+if __name__ == '__main__':
+    unittest.main()
