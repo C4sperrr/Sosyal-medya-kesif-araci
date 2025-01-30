@@ -1,0 +1,13 @@
+Branch Stratejisi
+Branch stratejisi, geliştirme sürecinin düzgün bir şekilde yürütülmesini sağlar. Aşağıda örnek bir branch stratejisi bulunmaktadır:
+
+main: Bu dalda sadece stabil ve üretim sürümü olan kod bulunur.
+develop: Tüm yeni özelliklerin, hata düzeltmelerinin ve geliştirmelerin yapıldığı dal.
+feature/<özellik-adi>: Her yeni özellik veya işlev için ayrı bir branch açılır. Bu dal, develop dalından türetilir.
+hotfix/<acil-duzenleme>: Üretimde kritik bir hata ortaya çıktığında, main dalından türetilen ve hızlıca düzeltme yapılan dal.
+Branch kullanım örneği:
+
+bash
+Kopyala
+Düzenle
+git checkout -b feature/twitter-api
