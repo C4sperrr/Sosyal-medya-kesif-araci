@@ -1,0 +1,20 @@
+Teknik dökümantasyon projenizin nasıl çalıştığını, kullanılan teknolojileri, araçları, API'leri, veri akışlarını ve işleyişi açıklayan ayrıntılı bir kaynaktır. Aşağıda bir örnek içeriği bulabilirsiniz:
+
+Teknik Dökümantasyon
+Proje Tanımı
+Bu proje, Twitter, Instagram ve Facebook API'lerini kullanarak sosyal medya verilerini toplar, analiz eder ve görselleştirir. Veriler, kullanıcı bilgileri, takipçi sayıları, paylaşılan tweet/media sayıları gibi metriklere dayanarak karşılaştırmalı grafiklerde sunulur.
+
+Kullanılan Teknolojiler
+Python 3.x: API entegrasyonu ve veri analizi için kullanılır.
+Matplotlib: Verilerin görselleştirilmesi için kullanılır.
+Requests: API istekleri yapmak için kullanılır.
+JSON: API yanıtları JSON formatında olduğu için bu formatla veri işlenir.
+API Entegrasyonu
+Twitter API: Kullanıcı profili ve takipçi bilgileri almak için kullanılır.
+Instagram Graph API: Kullanıcı bilgileri ve takipçi verisi çekilir.
+Facebook Graph API: Kullanıcı ve arkadaş bilgileri elde edilir.
+Veri Akışı
+Kullanıcı, platformlar için geçerli API erişim anahtarlarını girer.
+API'ler üzerinden veriler çekilir.
+Çekilen veriler işlenir ve uygun metrikler görselleştirilir.
+Elde edilen veriler bar grafikleri ile sunulur.
