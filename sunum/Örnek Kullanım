@@ -1,0 +1,26 @@
+API Anahtarları:
+
+.env dosyasını oluşturun ve içerisine gerekli API anahtarlarını ekleyin:
+env
+Kopyala
+Düzenle
+TWITTER_API_KEY=your_twitter_api_key
+TWITTER_API_SECRET=your_twitter_api_secret
+INSTAGRAM_ACCESS_TOKEN=your_instagram_access_token
+FACEBOOK_ACCESS_TOKEN=your_facebook_access_token
+Projeyi Çalıştırma:
+
+Projeyi çalıştırmak için terminalde şu komutu kullanın:
+bash
+Kopyala
+Düzenle
+python main.py
+Sonuçları Görüntüleme:
+
+Çalıştırıldıktan sonra, bir sosyal medya raporu ve bar grafiklerinin bulunduğu bir görsel dosyası oluşturulur.
+Grafikte, Twitter, Instagram ve Facebook kullanıcı verileri görselleştirilmiş olur.
+Çıktı Örneği:
+
+Twitter: 500 takipçi, 300 takip edilen kişi, 100 tweet
+Instagram: 1500 takipçi, 500 takip edilen kişi, 200 medya
+Facebook: 1200 arkadaş, 350 takip edilen kişi
