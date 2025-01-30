@@ -1,0 +1,15 @@
+import unittest
+import os
+
+class TestSecurity(unittest.TestCase):
+    def test_api_keys(self):
+        twitter_key = os.getenv('TWITTER_API_KEY')
+        instagram_key = os.getenv('INSTAGRAM_ACCESS_TOKEN')
+        facebook_key = os.getenv('FACEBOOK_ACCESS_TOKEN')
+        
+        self.assertIsNotNone(twitter_key, "Twitter API anahtarı eksik")
+        self.assertIsNotNone(instagram_key, "Instagram API anahtarı eksik")
+        self.assertIsNotNone(facebook_key, "Facebook API anahtarı eksik")
+
+if __name__ == '__main__':
+    unittest.main()
