@@ -1,0 +1,10 @@
+Performans Testleri
+Performans testleri, sistemin API'lere yüksek miktarda istek gönderdiğinde nasıl tepki vereceğini test eder. Örneğin, çok sayıda kullanıcı verisini çektiğinizde sistemin performansını ölçebilirsiniz.
+
+Örnek bir performans testi:
+
+import time
+start_time = time.time()
+# Çok sayıda API isteği yapılır.
+end_time = time.time()
+print(f"Performans testi süresi: {end_time - start_time} saniye")
